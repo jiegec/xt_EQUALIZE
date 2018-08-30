@@ -1,4 +1,4 @@
-# Adapted from https://github.com/shankerwangmiao/xt_EQUALIZE/blob/master/Makefile
+# Adapted from https://github.com/shankerwangmiao/xt_PROTO/blob/master/Makefile
 
 KDIR ?= /lib/modules/`uname -r`/build
 CC := gcc
