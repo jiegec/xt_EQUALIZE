@@ -8,7 +8,7 @@
 #include "xt_EQUALIZE.h"
 #include <linux/netfilter/x_tables.h>
 
-MODULE_AUTHOR("Jiajie hen <jiegec@qq.com>");
+MODULE_AUTHOR("Jiajie Chen <jiegec@qq.com>");
 MODULE_DESCRIPTION("Xtables: RFC 8367 compliant IP filter target");
 MODULE_LICENSE("GPL");
 
