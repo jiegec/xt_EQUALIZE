@@ -56,7 +56,7 @@ static unsigned int equalize_tg(struct sk_buff *skb,
 
 static unsigned int equalize_tg6(struct sk_buff *skb,
                                  const struct xt_action_param *par) {
-  // RFC8367 3.6 IP-Version-Based Termination
+  // RFC8367 3.5 IP-Version-Based Termination
   printk(pr_fmt("Dropped due to ip-version-based termination"));
   return NF_DROP;
 }
